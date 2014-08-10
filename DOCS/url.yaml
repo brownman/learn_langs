@@ -1,0 +1,12 @@
+packaging:
+    - https://packaging.python.org/en/latest/tutorial.html#scripts
+
+pocketsphinx:
+    - https://pypi.python.org/pypi?%3Aaction=search&term=pocketsphinx&submit=search
+
+git:
+    - https://github.com/Seraf/LISA
+    - https://github.com/mcfletch/listener
+
+pip:
+    http://www.pythonforbeginners.com/basics/how-to-use-pip-and-pypi

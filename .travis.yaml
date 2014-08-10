@@ -1,0 +1,24 @@
+language: python
+
+python:
+    - 2.7
+
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
+
+script:
+  - /usr/bin/yes | env PYTHONPATH=. coverage run --source=learn_langs `which trial` learn_langs.server
+
+#after_success:
+#  - coveralls
+
+#services:
+#  - mongodb
+
+#notifications:
+#  irc: "irc.freenode.net#lisa-project"
+  
+branches:
+  only:
+    - develop
